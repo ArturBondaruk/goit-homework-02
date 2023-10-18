@@ -1,0 +1,195 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+.link{
+text-decoration: none;
+
+}
+
+.list{
+
+}
+
+.container{
+
+}
+
+:root {
+   /* Colors*/
+    --iris-cl; #4D5AE5;
+--ocean-cl; #404BBF;
+--navy-cl; #2E2F42;
+--green-cl; #31D0AA;
+/* Body Text*/
+--main-text; #434455;
+--subtle-text; #8E8F99;
+--accent
+
+
+}
+
+/* HEADER*/
+
+
+.header{
+background-color: white;
+display: flex;
+margin: 0 auto;
+max-height: 72px;
+}
+
+.header-nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+}
+
+.header-logo link{
+color: ;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 2%;
+text-transform: uppercase;
+display: inline-flex;
+margin-right: 76px;
+}
+
+.header-span{
+
+}
+
+.header-menu-list{
+
+}
+
+.header-list{
+
+}
+
+.header-list-link{
+
+}
+
+.header-address{
+
+}
+
+.header-address-menu{
+
+}
+
+.header-addres-list{
+
+}
+
+/* HERO SECTION*/
+
+.hero{
+
+}
+
+.hero-title{
+
+}
+
+.hero-button{
+button
+}
+
+
+/*  SECTION 2 */
+
+.benefits{
+
+}
+
+.visually-hiden{
+
+}
+
+.benefits-socials{
+
+}
+
+.benefits-list{
+
+}
+
+.benefits-title{
+
+}
+
+.benefits-text{
+
+}
+
+/* SECTION 3  */
+
+.intent{
+
+}
+
+.intent-title{
+
+}
+
+.intent-socials{
+
+}
+
+.intent-list{
+
+}
+
+
+/* SECTION 4  */
+
+.team{
+
+}
+
+.team-title{
+
+}
+
+.team-social{
+
+}
+
+.team-list{
+
+}
+
+.team-title-card{
+
+}
+
+.team-text{
+
+}
+
+
+/*  FOOTER */
+
+.footer{
+
+}
+
+.footer-logo{
+
+}
+
+.footer-studio-logo{
+
+}
+
+.footer-text{
+
+}
+
