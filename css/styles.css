@@ -1,5 +1,5 @@
 .body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -29,12 +29,22 @@ a:focus{
 .container{
 
 }
+.link {
+    text-decoration: none
+}
+.link:hover {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
+}
 
 /* HEADER*/
 
 .header {
     border-bottom: 1px solid  #E7E9FC;
-        background: var(--WHITE, #FFF);
+    
         
 }
 
@@ -59,7 +69,7 @@ a:focus{
         line-height: 1.16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        width: 71px;
+
 }
 
 .header-menu-list {
@@ -77,16 +87,15 @@ a:focus{
 .header-list-link {
     font-family: "Raleway", sans-serif;
     color: var(--SLATE);
-    font-size: 16px;
-    
+    font-size: 16px; 
     font-weight: 500;
     line-height: 1.5px;
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-
-.link {
-text-decoration: none
+.header-list-link:hover
+.header-list-link:focus {
+    color: #404bbf;
 }
 
 .header-address {
@@ -99,8 +108,7 @@ text-decoration: none
 
 .header-address-menu {}
 
-.list {
-}
+.list { list-style: none;}
 
 .header-addres-list {
     font-family: "Raleway", sans-serif;
@@ -110,4 +118,16 @@ text-decoration: none
     letter-spacing: 0.02em;
     color: var(----NAVY-BLUE);
     text-decoration: none;
+}
+
+.contact{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--SLATE);
+}
+.contact :hover
+.contact:focus {
+    color: #404bbf;
 }
