@@ -1,195 +1,114 @@
-body{
+.body{
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    background-color: #FFFFFF;
+    color: var(--SLATE);
+    background-color: var(--background-color);
 }
-.link{
-text-decoration: none;
 
+:root{
+--background-color: #FFF;
+----IRIS: #4D5AE5;
+----NAVY-BLUE: #2E2F42;
+----CLOUD: #F4F4FD;
+--SLATE: #434455;
+
+}
+
+a:hover
+a:focus{
+    color: #4D5AE5;
+}
+
+.li a:hover{
+    color: #404BBF;
 }
 
 .list{
-
+    list-style: none;
 }
 
 .container{
-
-}
-
-:root {
-   /* Colors*/
-    --iris-cl; #4D5AE5;
---ocean-cl; #404BBF;
---navy-cl; #2E2F42;
---green-cl; #31D0AA;
-/* Body Text*/
---main-text; #434455;
---subtle-text; #8E8F99;
---accent
-
+    display: flex;
 
 }
 
 /* HEADER*/
 
-
-.header{
-background-color: white;
-display: flex;
-margin: 0 auto;
-max-height: 72px;
+.header {
+    border-bottom: 1px solid  #E7E9FC;
+        background: var(--WHITE, #FFF);
+        width: 1440px;
+            
+            flex-shrink: 0;
 }
 
-.header-nav{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+.header-nav {
+    display: flex;
 align-items: center;
-margin: 0 auto;
 }
 
-.header-logo link{
-color: ;
-font-family: Roboto;
-font-size: 18px;
-font-weight: 800;
-line-height: 1.17;
-letter-spacing: 2%;
-text-transform: uppercase;
-display: inline-flex;
-margin-right: 76px;
+.header-logo {
+    color: var(--IRIS);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.span-logo{
+    color: var(----NAVY-BLUE);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.16px;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        width: 71px;
 }
 
-.header-span{
-
+.header-menu-list {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+        /* Body Medium */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
 }
 
-.header-menu-list{
+.header-list {}
 
+.header-list-link {
+    color: var(--SLATE);
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5px;
+        letter-spacing: 0.02em;
 }
 
-.header-list{
+.link {}
 
+.header-address {
+    color: var(--SLATE);
+    font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5px;
+        /* 150% */
+        letter-spacing: 0.02em;
 }
 
-.header-list-link{
+.header-address-menu {}
 
+.list {
+    margin-right: 0;
 }
 
-.header-address{
-
+.header-addres-list {
+    margin-right: auto;
 }
-
-.header-address-menu{
-
-}
-
-.header-addres-list{
-
-}
-
-/* HERO SECTION*/
-
-.hero{
-
-}
-
-.hero-title{
-
-}
-
-.hero-button{
-button
-}
-
-
-/*  SECTION 2 */
-
-.benefits{
-
-}
-
-.visually-hiden{
-
-}
-
-.benefits-socials{
-
-}
-
-.benefits-list{
-
-}
-
-.benefits-title{
-
-}
-
-.benefits-text{
-
-}
-
-/* SECTION 3  */
-
-.intent{
-
-}
-
-.intent-title{
-
-}
-
-.intent-socials{
-
-}
-
-.intent-list{
-
-}
-
-
-/* SECTION 4  */
-
-.team{
-
-}
-
-.team-title{
-
-}
-
-.team-social{
-
-}
-
-.team-list{
-
-}
-
-.team-title-card{
-
-}
-
-.team-text{
-
-}
-
-
-/*  FOOTER */
-
-.footer{
-
-}
-
-.footer-logo{
-
-}
-
-.footer-studio-logo{
-
-}
-
-.footer-text{
-
-}
-
