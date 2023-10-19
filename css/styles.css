@@ -6,9 +6,9 @@
 
 :root{
 --background-color: #FFF;
-----IRIS: #4D5AE5;
-----NAVY-BLUE: #2E2F42;
-----CLOUD: #F4F4FD;
+--IRIS: #4D5AE5;
+--NAVY-BLUE: #2E2F42;
+--CLOUD: #F4F4FD;
 --SLATE: #434455;
 
 }
@@ -62,7 +62,7 @@ a:focus{
         text-transform: uppercase;
     text-decoration: none;
 }
-.span-logo{
+.header-span{
     color: var(----NAVY-BLUE);
         font-size: 18px;
         font-weight: 800;
@@ -104,13 +104,14 @@ a:focus{
     font-weight: 400;
     line-height: 1.5px;
     letter-spacing: 0.02em;
+    font-style: normal
 }
 
 .header-address-menu {}
 
 .list { list-style: none;}
 
-.header-addres-list {
+.header-address-list {
     font-family: "Raleway", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -128,6 +129,36 @@ a:focus{
     color: var(--SLATE);
 }
 .contact :hover
-.contact:focus {
+.contact :focus {
     color: #404bbf;
+}
+
+/*--HERO SECTION--*/
+.hero {
+
+}
+
+.hero-title {
+background-color: var(----NAVY-BLUE);
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+     line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.hero-button :hover
+.hero-button :focus{
+background-color: #404BBF;
+cursor: pointer;
 }
