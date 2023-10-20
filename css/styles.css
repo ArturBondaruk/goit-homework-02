@@ -1,6 +1,6 @@
 .body{
-    font-family: "Roboto", sans-serif;
-    color: var(--SLATE);
+    font-family:"Roboto", sans-serif;
+    color: var(--SLATE) ;
     background-color: #FFFFFF;
 }
 
@@ -10,6 +10,7 @@
 --NAVY-BLUE: #2E2F42;
 --CLOUD: #F4F4FD;
 --SLATE: #434455;
+
 
 }
 
@@ -40,12 +41,11 @@ a:focus{
     color: #404bbf;
 }
 
+
 /* HEADER*/
 
 .header {
-    border-bottom: 1px solid  #E7E9FC;
-    
-        
+
 }
 
 .header-nav {
@@ -53,14 +53,13 @@ a:focus{
 }
 
 .header-logo {
-    color: var(--IRIS);
     font-family: "Raleway", sans-serif;
-        font-size: 18px;
         font-weight: 800;
+        font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    text-decoration: none;
+        color: var(--IRIS);
 }
 .header-span{
     color: var(--NAVY-BLUE);
@@ -136,7 +135,6 @@ a:focus{
 
 /*--HERO SECTION--*/
 .hero {
-
 }
 
 .hero-title {
@@ -156,12 +154,13 @@ background-color: var(--NAVY-BLUE);
      line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    cursor: pointer;
 }
 
 .hero-button :hover
 .hero-button :focus{
 background-color: #404BBF;
-cursor: pointer;
+
 }
 
 /*< !-- Section 2-->*/
@@ -180,7 +179,9 @@ cursor: pointer;
     overflow: hidden;
 }
 
-.benefits {}
+.benefits {
+    list-style: none;
+    }
 
 .visually-hidden {}
 
@@ -265,7 +266,7 @@ cursor: pointer;
 /*< !-- Footer-->*/
 
 .footer {
-    background-color: var(--NAVY-BLUE);
+    background-color: var(--NAVY-BLUE) ;
 
 }
 
@@ -277,13 +278,13 @@ cursor: pointer;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--IRIS);
-
+    text-decoration: none;
 }
 
 .header-studio-logo {}
 
 .footer-text {
     line-height: 1.5;
-    color: var(--CLOUD);
+    color: var(--CLOUD) ;
     letter-spacing: 0.02em;
 }
