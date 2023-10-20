@@ -1,5 +1,5 @@
 .body{
-    font-family:"Roboto", sans-serif;
+    font-family:'Roboto', sans-serif;
     color: var(--SLATE) ;
     background-color: #FFFFFF;
 }
@@ -148,7 +148,7 @@ background-color: var(--NAVY-BLUE);
 
 .hero-button {
     background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
      line-height: 1.5;
@@ -286,7 +286,7 @@ background-color: #404BBF;
 .list {}
 
 .navigation-button {
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto",sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
