@@ -285,6 +285,7 @@ background-color: #404BBF;
 .navigation-button:hover,
 .navigation-button:focus{
     background-color: #404BBF;
+    color: var(--background-color);
     
 }
 
@@ -306,4 +307,8 @@ color: var(--NAVY-BLUE);
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--SLATE);
+}
+
+.footer-span{
+    color: var(--CLOUD);
 }
