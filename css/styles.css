@@ -78,7 +78,7 @@ a:focus{
 .header-list {}
 
 .header-list-link {
-    color: var(--SLATE);
+    color: var(--NAVY-BLUE);
     font-size: 16px; 
     font-weight: 500;
     line-height: 1.5;
@@ -121,10 +121,11 @@ a:focus{
 
 /*--HERO SECTION--*/
 .hero {
+    background-color: var(--NAVY-BLUE)
 }
 
 .hero-title {
-background-color: var(--NAVY-BLUE);
+
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
